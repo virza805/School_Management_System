@@ -1,0 +1,259 @@
+*{margin:0;padding:0;}
+
+body{
+	/*font-family:qlassik,Sans-Serif, Arial !important;*/
+	/*background-color:#e8e8e8; 
+    font-family: 'Raleway', sans-serif; */
+
+    font-family: 'Source Sans Pro', sans-serif;
+	
+	-webkit-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+	font-family:sans-serif;
+	text-align: center;
+	position: relative;
+}
+
+a{
+	text-decoration:none;
+}
+
+.fix{
+	overflow:hidden;
+}
+
+.container_full{
+	width:100%;
+	
+}
+.container{
+	display:block;
+	
+}
+/* Menu Top No */
+.bk_top{
+	background-color: #f2f1f2;
+}
+#menu_top .rat{
+	float: right;
+}
+#menu_top ul{
+	list-style: none;
+}
+#menu_top ul li{
+	font-size: 16px;
+	float: left;
+	margin:0 7px;
+}
+#menu_top ul li a{
+	text-decoration: none;
+	color:black;
+}
+#menu_top ul li :hover{
+	
+}
+#menu_top ul li a:hover{
+	color: #0891ee;
+}
+/* Main ________ Menu No */
+
+.menu1 ul{
+	list-style: none;
+	/* float: right; */
+}
+.menu1 ul li{
+	float: left;
+	margin:0 auto;
+	text-align: center;
+	position: relative;
+}
+.menu1 ul ul{
+	display: none;
+	position:absolute;
+	margin-top:px;
+	background-color:#ffff;
+	border-radius:20px 0 20px 0;
+	border:1px solid black;
+	
+}
+
+
+.menu1 ul li:hover > ul{
+	display: block;
+	margin-top:1px;
+}
+.menu1 ul li a{
+	text-decoration: none;
+	color:black;
+	padding:5px 16px;
+	
+}
+.menu1 ul li a:hover{
+	background-color:#2ed40d;
+	transition:0.7s;
+	border-radius:20px 0 20px 0;
+	color:#ffff;
+
+}
+.active, .menu1 ul li a:hover{
+	background-color:#2ed40d;
+	color:#ffff;
+	transition:0.7s;
+	border-radius:20px 0 20px 0;
+	
+
+}
+
+
+#logo_left{
+	float:left;
+	position: relative;
+}
+/* JAMPING */
+.
+#logo_left h2{
+	transform:translate(-50%,-50%);
+	margin:0px;
+	padding:0px;
+	position:absolute;
+	/*
+	top:7%;
+	left:31%;
+	*/
+	
+	}
+#logo_left h2 span{
+	color:#262626;
+	background:#fff;
+	padding:10px 15px;
+	font-family:arial;
+	display:table-cell;
+	box-shadow:inset 0 0 5px rgba(0,0,0,.3),0 5px 0 #ccc;
+animation: animate 2s infinite;
+}
+
+	@keyframes animate{
+		0%{
+			transform:translateY(0px);
+			box-shadow:inset 0 0 5px rgba(0,0,0,.3),0 5px 0 #ccc,0 15px 5px rgba(0,0,0,0);
+		}
+		50%{
+			transform:translateY(-20px);
+			box-shadow:inset 0 0 5px rgba(0,0,0,.3),0 5px 0 #ccc,0 15px 5px rgba(0,0,0,.6);
+		}
+		100%{
+			transform:translateY(0px);
+			box-shadow:inset 0 0 5px rgba(0,0,0,.3),0 5px 0 #ccc,0 15px 5px rgba(0,0,0,0);
+		}
+
+	}
+#logo_left h2 span:nth-child(1){
+	animation-delay:.6s;
+}
+#logo_left h2 span:nth-child(2){
+	animation-delay:1.2s;
+}
+#logo_left h2 span:nth-child(3){
+	animation-delay:1.8s;
+}
+#logo_left h2 span:nth-child(4){
+	animation-delay:2.4s;
+}
+#logo_left h2 span:nth-child(5){
+	animation-delay:3s;
+}
+#logo_left h2 span:nth-child(6){
+	animation-delay:3.6s;
+}
+/* JAMPING END*/
+
+/* Main ________  Menu Off */
+
+/* Slider images on */
+.slid_img{
+	background-image: url(img/slid.jpg);
+	 
+}
+.admin_img{
+	background-image: url(img/abc.jpg);
+	
+	
+}
+.text{
+	padding-bottom:300px;
+	padding-top:100px;
+	color:#ffff;
+	font-weight: bold;
+	margin:0 auto;
+}
+
+/* Slider images Off */
+.loge_bk{
+	background:#1b2c71;
+}
+.heading{
+	color:#ffff;
+	font-weight: bold;
+	margin-bottom:20px;
+}
+.box{
+	 background: #ffff;
+	 box-shadow: 20px 20px 7px green;
+	 width:500px;
+	 
+	 
+	 margin:0 auto;
+	padding:20px 20px 20px 20px;
+}
+#vir h2{
+	font-weight: bold;
+	padding-bottom:20px;
+	margin:30px auto;
+	border-bottom: 1px solid green;
+
+}
+/* Dashbord on */
+.d_back{
+	background:#e0e0e3;
+}
+#vir ul{
+	list-style: none;
+	text-align: left;
+	
+}
+#vir ul li{
+	line-height: 150%;
+	border-bottom: 1px solid #e0e0e3;
+	padding-bottom:10px;
+	margin-top: 10px;
+}
+#vir ul li:last-child{
+	border-bottom: none;
+}
+#vir ul li a{
+	text-decoration: none;
+	color:black;
+	
+}
+#vir ul li a:hover{
+	background-color:#e0e0e3;
+	transition:0.7s;
+	font-weight: bold;
+	padding:14px 100% 13px 7px;
+
+}
+.active, #vir ul li a:hover{
+	background-color:#e0e0e3;
+	
+	font-weight: bold;
+	padding:14px 100% 13px 7px;
+
+}
+/* Dashbord end */
+#vir p{
+	text-align: left;
+	padding:30px 7px 7px 7px;
+}
+.mc{
+	margin:0 auto;
+}
